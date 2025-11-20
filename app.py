@@ -1,5 +1,5 @@
 # Quant Risk Dashboard
-# Author: [Your Name]
+# Author: Buffon
 # Description: An interactive dashboard for Risk Management & Derivatives Pricing
 
 import streamlit as st
@@ -153,4 +153,5 @@ if data is not None:
         st.caption(f"Based on Current Price: ${current_price:.2f} | Volatility: {sigma_input:.2%}")
 
 else:
+
     st.write("Please enter a valid ticker.")
