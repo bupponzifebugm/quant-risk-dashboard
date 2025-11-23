@@ -1,5 +1,5 @@
 # Quant Risk Dashboard
-# Author: [Your Name]
+# Author: buffon
 # Description: An interactive dashboard for Risk Management & Derivatives Pricing
 
 import streamlit as st
@@ -218,4 +218,5 @@ if data is not None:
         st.info(f"🔮 **Prediction:** Based on {simulations} simulations, there is a 95% chance the price will stay above **${var_95_future:.2f}** in {time_horizon} days.")
 
 else:
+
     st.write("Please enter a valid ticker.")
